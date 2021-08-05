@@ -53,7 +53,7 @@ python ./run_AdaEE_glue.py
         --model_type bert
         --model_name_or_path bert-base-uncased
         --task_name $TASK_NAME
-         --do_eval 
+        --do_eval 
         --do_lower_case 
         --data_dir $GLUE_DIR/$TASK_NAME
         --output_dir ./save/
