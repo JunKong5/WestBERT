@@ -49,7 +49,6 @@ TASK_NAME = SST-2  # SST-2, MRPC, RTE, QNLI, QQP, or MNLI
 GLUE_DIR = ./glue_data
 ENTROPIES=0.2
 
-
 python ./run_AdaEE_glue.py 
         --model_type bert
         --model_name_or_path bert-base-uncased
