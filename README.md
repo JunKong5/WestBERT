@@ -36,6 +36,8 @@ python ./run_AdaEE_glue.py
         --learning_rate 2e-5 
         --logging_steps 50 
         --save_steps 50
+         --eval_threshold
+        --early_exit_entropy 0.2
         --seed 42
         --overwrite_output_dir
         --num_train_epochs 15 
