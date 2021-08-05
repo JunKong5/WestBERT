@@ -14,7 +14,7 @@ Download GLUE dataset by
 python download_glue_data.py --data_dir data --tasks all
 ```
 
-##Usage
+## Usage
 ### Training
 
 You can fine-tune the WestBERT model by:
